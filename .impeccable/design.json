@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T20:48:53.877Z",
+  "title": "Design System: Lavender Safe Room (Digital Khichuri)",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Lavender White",
+        "canonical": "#faf7fd",
+        "tonalRamp": [
+          "#260f3d",
+          "#421b6a",
+          "#5e2697",
+          "#7a31c4",
+          "#9658d5",
+          "#b285e0",
+          "#d1b6ed",
+          "#f2ebfa"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b3b3b3",
+          "#d1d1d1",
+          "#f2f2f2"
+        ]
+      },
+      "lav": {
+        "role": "neutral",
+        "displayName": "Lavender",
+        "canonical": "#efe8fa",
+        "tonalRamp": [
+          "#210f3d",
+          "#391b6a",
+          "#522697",
+          "#6a31c4",
+          "#8958d5",
+          "#a885e0",
+          "#cbb6ed",
+          "#f1ebfa"
+        ]
+      },
+      "lav-line": {
+        "role": "neutral",
+        "displayName": "Lavender Line",
+        "canonical": "#e2d8f3",
+        "tonalRamp": [
+          "#21123a",
+          "#391f65",
+          "#512c90",
+          "#6a3abb",
+          "#885fce",
+          "#a88adb",
+          "#cbb9e9",
+          "#f1ebf9"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#ebe5f3",
+        "tonalRamp": [
+          "#241834",
+          "#3f2a5b",
+          "#593c81",
+          "#744da7",
+          "#9170bd",
+          "#ae96cf",
+          "#cfc0e2",
+          "#f2eef7"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Plum Ink",
+        "canonical": "#2a1f3d",
+        "tonalRamp": [
+          "#231a33",
+          "#3d2d58",
+          "#56407d",
+          "#7052a2",
+          "#8d74b9",
+          "#ac9acb",
+          "#cdc2e0",
+          "#f1eef6"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Plum",
+        "canonical": "#5b5170",
+        "tonalRamp": [
+          "#24202c",
+          "#3f384d",
+          "#594f6e",
+          "#73678e",
+          "#9086a7",
+          "#aea6bf",
+          "#cecad8",
+          "#f2f0f4"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "canonical": "#8d84a0",
+        "tonalRamp": [
+          "#24212b",
+          "#3f3a4b",
+          "#5a526a",
+          "#756b8a",
+          "#9289a4",
+          "#afa9bc",
+          "#cfcbd7",
+          "#f2f1f4"
+        ]
+      },
+      "violet": {
+        "role": "primary",
+        "displayName": "Action Violet",
+        "canonical": "#6b46c1",
+        "tonalRamp": [
+          "#1f1339",
+          "#352163",
+          "#4c2f8d",
+          "#623db7",
+          "#8262cb",
+          "#a38cd9",
+          "#c8bae8",
+          "#f0ecf9"
+        ]
+      },
+      "violet-deep": {
+        "role": "primary",
+        "displayName": "Deep Violet",
+        "canonical": "#553399",
+        "tonalRamp": [
+          "#201339",
+          "#372163",
+          "#4f2f8e",
+          "#663db8",
+          "#8562cb",
+          "#a68cd9",
+          "#c9bae8",
+          "#f0ecf9"
+        ]
+      },
+      "violet-soft": {
+        "role": "primary",
+        "displayName": "Violet Mist",
+        "canonical": "#ece4fb",
+        "tonalRamp": [
+          "#1f0f3d",
+          "#361b6a",
+          "#4d2697",
+          "#6431c4",
+          "#8358d5",
+          "#a585e0",
+          "#c9b6ed",
+          "#f0ebfa"
+        ]
+      },
+      "shadow-violet": {
+        "role": "primary",
+        "displayName": "Shadow Violet (low-alpha shadow tint only)",
+        "canonical": "#543399",
+        "tonalRamp": [
+          "#1f1339",
+          "#372163",
+          "#4e2f8e",
+          "#653db8",
+          "#8462cb",
+          "#a58cd9",
+          "#c9bae8",
+          "#f0ecf9"
+        ]
+      },
+      "peach": {
+        "role": "secondary",
+        "displayName": "Peach",
+        "canonical": "#f7d9cc",
+        "tonalRamp": [
+          "#3d1d0f",
+          "#6a331b",
+          "#974826",
+          "#c45d31",
+          "#d57e58",
+          "#e0a085",
+          "#edc6b6",
+          "#faefeb"
+        ]
+      },
+      "peach-soft": {
+        "role": "secondary",
+        "displayName": "Peach Cream",
+        "canonical": "#fdf1ec",
+        "tonalRamp": [
+          "#3d1d0f",
+          "#6a321b",
+          "#974726",
+          "#c45c31",
+          "#d57d58",
+          "#e0a085",
+          "#edc6b6",
+          "#faefeb"
+        ]
+      },
+      "peach-deep": {
+        "role": "secondary",
+        "displayName": "Terracotta Heart",
+        "canonical": "#c2573a",
+        "tonalRamp": [
+          "#3b1a12",
+          "#662e1f",
+          "#91412b",
+          "#bc5538",
+          "#cf765e",
+          "#dc9b89",
+          "#eac3b8",
+          "#f9eeeb"
+        ]
+      },
+      "peach-ink": {
+        "role": "secondary",
+        "displayName": "Peach Ink",
+        "canonical": "#9a4a33",
+        "tonalRamp": [
+          "#391c13",
+          "#643021",
+          "#8e442f",
+          "#b8583d",
+          "#cb7962",
+          "#d99d8c",
+          "#e8c4ba",
+          "#f9efec"
+        ]
+      },
+      "green": {
+        "role": "tertiary",
+        "displayName": "Done Green",
+        "canonical": "#2e7d5b",
+        "tonalRamp": [
+          "#153829",
+          "#246147",
+          "#338a64",
+          "#42b382",
+          "#66c79d",
+          "#8fd6b7",
+          "#bce6d4",
+          "#ecf8f3"
+        ]
+      },
+      "green-soft": {
+        "role": "tertiary",
+        "displayName": "Green Mist",
+        "canonical": "#e3f3ea",
+        "tonalRamp": [
+          "#173624",
+          "#285d3f",
+          "#39845a",
+          "#49ab74",
+          "#6dc091",
+          "#94d1af",
+          "#bfe3cf",
+          "#edf7f2"
+        ]
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Danger Red",
+        "canonical": "#c62f3f",
+        "tonalRamp": [
+          "#3d0f14",
+          "#6a1b23",
+          "#972632",
+          "#c43141",
+          "#d55865",
+          "#e0858e",
+          "#edb6bb",
+          "#faebec"
+        ]
+      },
+      "red-deep": {
+        "role": "tertiary",
+        "displayName": "Red Deep",
+        "canonical": "#a8242f",
+        "tonalRamp": [
+          "#3d0f13",
+          "#6a1b21",
+          "#97262f",
+          "#c4313d",
+          "#d55862",
+          "#e0858c",
+          "#edb6ba",
+          "#faebec"
+        ]
+      },
+      "red-soft": {
+        "role": "tertiary",
+        "displayName": "Red Mist",
+        "canonical": "#fdeaec",
+        "tonalRamp": [
+          "#3d0f14",
+          "#6a1b23",
+          "#972632",
+          "#c43140",
+          "#d55865",
+          "#e0858e",
+          "#edb6bb",
+          "#faebec"
+        ]
+      },
+      "red-line": {
+        "role": "tertiary",
+        "displayName": "Red Line",
+        "canonical": "#f6c9cf",
+        "tonalRamp": [
+          "#3d0f15",
+          "#6a1b25",
+          "#972635",
+          "#c43145",
+          "#d55868",
+          "#e08591",
+          "#edb6bd",
+          "#faebed"
+        ]
+      },
+      "print-rule": {
+        "role": "neutral",
+        "displayName": "Print Rule",
+        "canonical": "#cccccc",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b3b3b3",
+          "#d1d1d1",
+          "#f2f2f2"
+        ]
+      },
+      "illo-arch": {
+        "role": "illustration",
+        "displayName": "Arch",
+        "canonical": "#e9e0f7",
+        "tonalRamp": [
+          "#21103d",
+          "#3a1b69",
+          "#522796",
+          "#6b32c3",
+          "#8959d4",
+          "#a985e0",
+          "#cbb6ec",
+          "#f1ebfa"
+        ]
+      },
+      "illo-arch-in": {
+        "role": "illustration",
+        "displayName": "Arch Inner",
+        "canonical": "#f4effc",
+        "tonalRamp": [
+          "#210f3d",
+          "#391b6a",
+          "#512697",
+          "#6931c4",
+          "#8858d5",
+          "#a885e0",
+          "#cbb6ed",
+          "#f0ebfa"
+        ]
+      },
+      "illo-glow-warm": {
+        "role": "illustration",
+        "displayName": "Glow Warm Stop",
+        "canonical": "#fff6ef",
+        "tonalRamp": [
+          "#3d230f",
+          "#6a3d1b",
+          "#975726",
+          "#c47131",
+          "#d58f58",
+          "#e0ad85",
+          "#edceb6",
+          "#faf1eb"
+        ]
+      },
+      "illo-glow-lav": {
+        "role": "illustration",
+        "displayName": "Glow Lavender Stop",
+        "canonical": "#f6effc",
+        "tonalRamp": [
+          "#280f3d",
+          "#451b6a",
+          "#632697",
+          "#8031c4",
+          "#9b58d5",
+          "#b685e0",
+          "#d3b6ed",
+          "#f3ebfa"
+        ]
+      },
+      "illo-dots": {
+        "role": "illustration",
+        "displayName": "Alpana Dots",
+        "canonical": "#d3c3ef",
+        "tonalRamp": [
+          "#20103c",
+          "#381c69",
+          "#4f2895",
+          "#6734c1",
+          "#865ad3",
+          "#a686df",
+          "#cab7ec",
+          "#f0ebfa"
+        ]
+      },
+      "illo-leaf": {
+        "role": "illustration",
+        "displayName": "Lavender Leaf",
+        "canonical": "#b9a3e3",
+        "tonalRamp": [
+          "#20123b",
+          "#371f66",
+          "#4f2c91",
+          "#6639bc",
+          "#855fce",
+          "#a68adb",
+          "#c9b9ea",
+          "#f0ebf9"
+        ]
+      },
+      "illo-spark": {
+        "role": "illustration",
+        "displayName": "Spark",
+        "canonical": "#fff4ec",
+        "tonalRamp": [
+          "#3d230f",
+          "#6a3c1b",
+          "#975526",
+          "#c46f31",
+          "#d58d58",
+          "#e0ab85",
+          "#edcdb6",
+          "#faf1eb"
+        ]
+      },
+      "illo-skin": {
+        "role": "illustration",
+        "displayName": "Skin",
+        "canonical": "#a86b4c",
+        "tonalRamp": [
+          "#352218",
+          "#5b3a29",
+          "#82533b",
+          "#a96b4c",
+          "#be8a6f",
+          "#cfa996",
+          "#e2cbc0",
+          "#f7f1ed"
+        ]
+      },
+      "illo-skin-shade": {
+        "role": "illustration",
+        "displayName": "Skin Shade",
+        "canonical": "#8e5a3f",
+        "tonalRamp": [
+          "#352218",
+          "#5c3a29",
+          "#83533a",
+          "#aa6b4b",
+          "#bf8a6e",
+          "#d0a995",
+          "#e3ccbf",
+          "#f7f1ed"
+        ]
+      },
+      "illo-hair": {
+        "role": "illustration",
+        "displayName": "Hair",
+        "canonical": "#2b1d2b",
+        "tonalRamp": [
+          "#2e1f2e",
+          "#4f354f",
+          "#714c71",
+          "#926392",
+          "#ab82ab",
+          "#c1a4c1",
+          "#dac8da",
+          "#f5f0f5"
+        ]
+      },
+      "illo-kameez": {
+        "role": "illustration",
+        "displayName": "Kameez",
+        "canonical": "#7c5bd0",
+        "tonalRamp": [
+          "#1d113b",
+          "#321e67",
+          "#482a93",
+          "#5d37be",
+          "#7d5cd0",
+          "#a088dd",
+          "#c6b8eb",
+          "#efebf9"
+        ]
+      },
+      "illo-kameez-shade": {
+        "role": "illustration",
+        "displayName": "Kameez Shade",
+        "canonical": "#6a4bbf",
+        "tonalRamp": [
+          "#1e1438",
+          "#342362",
+          "#49318b",
+          "#5f40b5",
+          "#7f65c8",
+          "#a28ed7",
+          "#c7bbe7",
+          "#efecf8"
+        ]
+      },
+      "illo-salwar": {
+        "role": "illustration",
+        "displayName": "Salwar / Hijab",
+        "canonical": "#4c3a78",
+        "tonalRamp": [
+          "#211934",
+          "#392b59",
+          "#513d7f",
+          "#6950a5",
+          "#8772bb",
+          "#a798cd",
+          "#cac1e1",
+          "#f0eef7"
+        ]
+      },
+      "illo-orna": {
+        "role": "illustration",
+        "displayName": "Orna",
+        "canonical": "#f2a7b5",
+        "tonalRamp": [
+          "#3d0f18",
+          "#6a1b29",
+          "#97263b",
+          "#c4314c",
+          "#d5586f",
+          "#e08596",
+          "#edb6c0",
+          "#faebed"
+        ]
+      },
+      "illo-orna-back": {
+        "role": "illustration",
+        "displayName": "Orna Back",
+        "canonical": "#e38c9f",
+        "tonalRamp": [
+          "#3d0f19",
+          "#6a1b2c",
+          "#97263e",
+          "#c43151",
+          "#d55873",
+          "#e08599",
+          "#edb6c2",
+          "#faebee"
+        ]
+      },
+      "illo-teal": {
+        "role": "illustration",
+        "displayName": "Teal Kameez",
+        "canonical": "#3f8f8a",
+        "tonalRamp": [
+          "#173533",
+          "#295c59",
+          "#3a837e",
+          "#4baaa4",
+          "#6ebfba",
+          "#95d0cc",
+          "#bfe3e1",
+          "#edf7f7"
+        ]
+      },
+      "illo-pati": {
+        "role": "illustration",
+        "displayName": "Shital Pati",
+        "canonical": "#ecdcb8",
+        "tonalRamp": [
+          "#3c2f10",
+          "#69511c",
+          "#957328",
+          "#c19634",
+          "#d3ae5a",
+          "#dfc486",
+          "#ecdbb7",
+          "#faf5eb"
+        ]
+      },
+      "illo-pati-line": {
+        "role": "illustration",
+        "displayName": "Pati Weave",
+        "canonical": "#d9c394",
+        "tonalRamp": [
+          "#382d14",
+          "#624e23",
+          "#8b6f31",
+          "#b59040",
+          "#c8a865",
+          "#d7c08e",
+          "#e7d9bb",
+          "#f8f4ec"
+        ]
+      },
+      "illo-pati-border": {
+        "role": "illustration",
+        "displayName": "Pati Border",
+        "canonical": "#b8453c",
+        "tonalRamp": [
+          "#3a1613",
+          "#642521",
+          "#8e352e",
+          "#b9453c",
+          "#cc6961",
+          "#d9918c",
+          "#e8bdba",
+          "#f9edec"
+        ]
+      },
+      "illo-screen": {
+        "role": "illustration",
+        "displayName": "Phone Screen",
+        "canonical": "#cdbcf2",
+        "tonalRamp": [
+          "#1e0f3d",
+          "#341b6a",
+          "#492697",
+          "#5f31c4",
+          "#7f58d5",
+          "#a285e0",
+          "#c7b6ed",
+          "#efebfa"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page's one question or title."
+      },
+      "display-plan": {
+        "displayName": "Display, plan",
+        "purpose": "Longer plan titles, max 26ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings (h2)."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The line under a page title, soft plum, max 52ch."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3, home section titles, the plan \"do not\" heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, max 62ch."
+      },
+      "row-name": {
+        "displayName": "Row name",
+        "purpose": "The name inside every card row."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Button labels; inputs use the same size at 450."
+      },
+      "hint": {
+        "displayName": "Hint",
+        "purpose": "Row hints (450), tools, chips, reassurance pill, field labels, 1-2-3 strip."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Live status lines and the back link above a plan title. Never a decorative kicker."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Row data pills, brand strapline, foot-line text, step numerals."
+      },
+      "tag": {
+        "displayName": "Tag",
+        "purpose": "The peach \"women only\" badge."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Hashes, privacy and help captions."
+      },
+      "mono-draft": {
+        "displayName": "Mono draft",
+        "purpose": "The generated GD draft block."
+      }
+    },
+    "shadows": [
+      {
+        "name": "resting",
+        "value": "0 1px 2px rgba(42, 31, 61, 0.06)",
+        "purpose": "Cards, panels, tool links at rest."
+      },
+      {
+        "name": "lifted",
+        "value": "0 1px 2px rgba(42, 31, 61, 0.05), 0 10px 24px -14px rgba(84, 51, 153, 0.28)",
+        "purpose": "Hovered or open cards, the menu panel."
+      },
+      {
+        "name": "foot-line",
+        "value": "0 -10px 24px -16px rgba(84, 51, 153, 0.3)",
+        "purpose": "Fixed phone call bar, cast upward."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Card lift, interior reveal, rise-in, checkbox tick."
+      },
+      {
+        "name": "hover",
+        "value": "0.15s",
+        "purpose": "Background and border colour changes."
+      },
+      {
+        "name": "card-lift",
+        "value": "0.25s ease-out-expo, translateY(-2px)",
+        "purpose": "Card hover and focus."
+      },
+      {
+        "name": "interior-reveal",
+        "value": "0.35s ease-out-expo, grid-template-rows 0fr to 1fr",
+        "purpose": "Expandable rows."
+      },
+      {
+        "name": "rise",
+        "value": "0.45-0.5s ease-out-expo from opacity 0 and translateY(10px), 40-50ms stagger",
+        "purpose": "Page and list entrance; off under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone-narrow",
+        "value": "420px"
+      },
+      {
+        "name": "interior-inset",
+        "value": "480px"
+      },
+      {
+        "name": "hero-split",
+        "value": "760px"
+      },
+      {
+        "name": "rail",
+        "value": "900px"
+      },
+      {
+        "name": "home-two-column",
+        "value": "1100px"
+      }
+    ],
+    "textScale": {
+      "property": "--scale",
+      "steps": [
+        1,
+        1.15,
+        1.3
+      ],
+      "appliesTo": "html { font-size: calc(100% * var(--scale)) }",
+      "storageKey": "dkc.textscale"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Violet pill, the default action.",
+      "html": "<button class=\"ds-btn\">Done</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #6b46c1;background:#6b46c1;color:#fff;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .15s,transform .15s cubic-bezier(0.16,1,0.3,1)}.ds-btn:hover{background:#553399;border-color:#553399}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "White pill with a lavender-line border.",
+      "html": "<button class=\"ds-btn-line\">109 Women &amp; children</button>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #e2d8f3;background:#fff;color:#2a1f3d;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .15s}.ds-btn-line:hover{background:#efe8fa}.ds-btn-line:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+    },
+    {
+      "name": "Emergency Button",
+      "kind": "button",
+      "refersTo": "button-emergency",
+      "description": "Red pill for emergency calls only.",
+      "html": "<a class=\"ds-btn-red\" href=\"tel:999\">999 Police</a>",
+      "css": ".ds-btn-red{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;background:#c62f3f;color:#fff;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;font-weight:700;text-decoration:none}.ds-btn-red:hover{background:#a8242f}.ds-btn-red:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+    },
+    {
+      "name": "Row",
+      "kind": "card",
+      "refersTo": "row-card",
+      "description": "Signature card row: violet-soft icon circle, name, hint, data pill, chevron.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-row-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg></span><span><span class=\"ds-row-name\">Someone shared my photos</span><span class=\"ds-row-hint\">Take them down and keep proof</span></span><span class=\"ds-row-data\">6 steps</span><svg class=\"ds-row-chev\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M9 5l7 7-7 7\"/></svg></a>",
+      "css": ".ds-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:14px;padding:16px 16px 16px 14px;background:#fff;border:1px solid #ebe5f3;border-radius:20px;color:#2a1f3d;text-decoration:none;box-shadow:0 1px 2px rgba(42,31,61,.06);transition:border-color .15s,box-shadow .25s cubic-bezier(0.16,1,0.3,1),transform .25s cubic-bezier(0.16,1,0.3,1)}.ds-row:hover,.ds-row:focus-visible{border-color:#e2d8f3;box-shadow:0 1px 2px rgba(42,31,61,.05),0 10px 24px -14px rgba(84,51,153,.28);transform:translateY(-2px)}.ds-row:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}.ds-row-icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#ece4fb;color:#553399}.ds-row-name{display:block;font-family:'Anek Bangla',system-ui,sans-serif;font-weight:700;font-size:1.0625rem;line-height:1.35}.ds-row-hint{display:block;margin-top:3px;font-size:.9375rem;color:#5b5170}.ds-row-data{font-size:.8125rem;font-weight:600;color:#553399;background:#ece4fb;border-radius:999px;padding:2px 10px;white-space:nowrap}.ds-row-chev{color:#5b5170}"
+    },
+    {
+      "name": "Status Dot",
+      "kind": "custom",
+      "refersTo": "row-card",
+      "description": "Empty ring (not started), dashed violet ring (in progress), filled green with tick (done).",
+      "html": "<span class=\"ds-dot\"></span> <span class=\"ds-dot ds-dot-part\"></span> <span class=\"ds-dot ds-dot-on\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 12.5 L10 18.5 L20 6\"/></svg></span>",
+      "css": ".ds-dot{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;border:2px solid #e2d8f3;background:#fff;vertical-align:middle}.ds-dot-part{border-color:#6b46c1;border-style:dashed;background:#ece4fb}.ds-dot-on{background:#2e7d5b;border-color:#2e7d5b}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Lavender-white field; violet border and soft halo on focus.",
+      "html": "<input class=\"ds-input\" placeholder=\"Date of incident\">",
+      "css": ".ds-input{display:block;width:100%;min-height:50px;padding:12px 14px;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;color:#2a1f3d;background:#faf7fd;border:1px solid #e2d8f3;border-radius:14px;caret-color:#6b46c1}.ds-input::placeholder{color:#8d84a0}.ds-input:focus-visible{outline:3px solid #ece4fb;outline-offset:0;border-color:#6b46c1;background:#fff}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "White pill; pressed fills violet.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Police</button> <button class=\"ds-chip\" aria-pressed=\"false\">Legal aid</button>",
+      "css": ".ds-chip{min-height:42px;padding:0 18px;border-radius:999px;border:1px solid #e2d8f3;background:#fff;color:#2a1f3d;font-family:'Anek Bangla',system-ui,sans-serif;font-size:.9375rem;font-weight:600;cursor:pointer}.ds-chip[aria-pressed='true']{background:#6b46c1;border-color:#6b46c1;color:#fff}.ds-chip:hover:not([aria-pressed='true']){background:#efe8fa}.ds-chip:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Rail pill; lavender hover, violet-soft current page.",
+      "html": "<nav class=\"ds-rail\"><a class=\"ds-nav\" href=\"#\" aria-current=\"page\">Home</a><a class=\"ds-nav\" href=\"#\">Save proof</a></nav>",
+      "css": ".ds-rail{background:#fff;border:1px solid #ebe5f3;border-radius:20px;width:240px;padding:12px;display:grid;gap:2px}.ds-nav{display:flex;align-items:center;min-height:50px;padding:0 14px;border-radius:999px;color:#2a1f3d;text-decoration:none;font-family:'Anek Bangla',system-ui,sans-serif;font-weight:600}.ds-nav:hover{background:#efe8fa}.ds-nav[aria-current='page']{background:#ece4fb;color:#553399}.ds-nav:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+    },
+    {
+      "name": "Call Pair",
+      "kind": "custom",
+      "refersTo": "call-999",
+      "description": "999 red pill beside a 109 violet-soft pill.",
+      "html": "<div class=\"ds-calls\"><a class=\"ds-call ds-999\" href=\"tel:999\">999</a><a class=\"ds-call ds-109\" href=\"tel:109\">109</a></div>",
+      "css": ".ds-calls{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:220px}.ds-call{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:999px;font-family:'Anek Bangla',system-ui,sans-serif;font-weight:700;font-size:1.125rem;font-variant-numeric:tabular-nums;text-decoration:none}.ds-999{background:#c62f3f;color:#fff}.ds-999:hover{background:#a8242f}.ds-109{background:#ece4fb;color:#553399}.ds-109:hover{background:#6b46c1;color:#fff}.ds-call:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+    },
+    {
+      "name": "Reassurance Pill",
+      "kind": "chip",
+      "refersTo": "reassure",
+      "description": "Peach-cream pill with a terracotta heart.",
+      "html": "<span class=\"ds-reassure\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z\"/></svg>This is not your fault, and you are not alone.</span>",
+      "css": ".ds-reassure{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;background:#fdf1ec;color:#2a1f3d;border-radius:999px;font-family:'Anek Bangla',system-ui,sans-serif;font-size:.9375rem;font-weight:600}.ds-reassure svg{color:#c2573a;flex:none}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Lavender Safe Room",
+    "overview": "A warm, illustrated safe room drawn in lavender. The ground is a lavender-white wash; every surface on it is a white card with soft 20px corners, a lavender hairline and a faint violet-tinted shadow. The one thing that makes the room feel inhabited is drawing: hand-authored flat SVG scenes of faceless Bangladeshi women (warm brown skin, salwar kameez with orna, one in hijab) seated under an arch of light, with an alpana dot border tracing the arch, a shital pati mat underfoot, leaves at the edges and small four-point sparks standing in for light. Faces are left blank on purpose so any woman can see herself.\n\nThe interface around the drawings speaks softly and plainly. Violet is the working colour for anything she can do; peach carries warmth (the reassurance pill, the \"women only\" tag); green appears only when a step is done; red is held back for danger. Controls are pills, rows are cards, headings are bold but modest, and nothing is uppercased, condensed, taped, striped or boxed. Text size is hers to change: the whole rem scale rides a single `--scale` multiplier on `html` (1, 1.15, 1.3), persisted on the device.\n\nThis replaces the earlier \"Morning Tea Garden\" sage world, which the user rejected as too plain. Nothing of its mist-green palette, square-ish 12-16px radii or leaf-green action colour survives.",
+    "keyCharacteristics": [
+      "Lavender-white ground, white 20px cards with a 1px lavender hairline and a violet-tinted soft shadow.",
+      "Violet for action, peach for warmth, green only for done, red only for danger and exit.",
+      "Pill-shaped buttons, chips, nav links, call buttons and badges; circles for icons and status.",
+      "Flat inline-SVG illustrations: faceless women, no outlines, glow and sparks for light, alpana dots, shital pati.",
+      "One family (Anek Bangla) in sentence case; Red Hat Mono for data only.",
+      "User-controlled text scale (1 / 1.15 / 1.3) applied to the root font size."
+    ],
+    "rules": [
+      {
+        "name": "The Violet-Acts Rule",
+        "body": "If she can press it, it is violet (or a white pill that fills lavender on hover). Violet is never decoration on non-interactive text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Green-Means-Done Rule",
+        "body": "Green appears only on a completed status dot and a verified result. It is never an action colour and never decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red-Is-Danger Rule",
+        "body": "The red family marks danger, exit, prohibitions and failure only. It never marks a normal action, a heading or an ornament.",
+        "section": "colors"
+      },
+      {
+        "name": "The Shape-Before-Colour Rule",
+        "body": "Status is never colour alone: an empty ring (not started), a dashed violet ring (in progress), a filled green circle with a white tick (done).",
+        "section": "colors"
+      },
+      {
+        "name": "The Sentence-Case Rule",
+        "body": "Nothing is uppercased, letter-spaced or width-condensed. The `wdth` axis is loaded but unused.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono-Is-Data Rule",
+        "body": "Red Hat Mono sets hashes, the GD draft and small technical captions only; never a name, heading, button or phone number.",
+        "section": "typography"
+      },
+      {
+        "name": "The Her-Scale Rule",
+        "body": "Every size is in rem so the root `--scale` (1, 1.15, 1.3) enlarges the whole interface together. Never set type in px.",
+        "section": "typography"
+      },
+      {
+        "name": "The Soft-Lift Rule",
+        "body": "Depth answers interaction: hover or open raises a card 2px and swaps resting for lifted. No hard offset shadows, no stacked borders.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set every page on bg and every surface on paper with a 1px hairline and the resting shadow; round cards at 20px and inner containers at 14px.",
+      "Do make every button, chip, nav link, call and badge a full pill (999px).",
+      "Do use violet for anything she can act on, green only for done, and the red family only for danger, exit, prohibition and failure.",
+      "Do carry status on shape (empty ring, dashed ring, filled circle with tick) before colour.",
+      "Do draw new illustrations from the `C` palette: flat fills, no outlines, faceless figures, light as glow and sparks, the arch with alpana dots.",
+      "Do size type in rem so the 1 / 1.15 / 1.3 text-size control scales everything."
+    ],
+    "donts": [
+      "Don't bring back the rejected worlds: sage tea-garden greens, orange-and-black, stripes, cardboard, heavy borders or condensed caps.",
+      "Don't use black or hard offset shadows; shadows are blurred and plum or violet tinted.",
+      "Don't give illustrated figures faces, outlines, or stock-photo realism, and don't substitute raster images or icon glyphs for drawn scenes.",
+      "Don't use red, or green, as a general emphasis or decoration colour.",
+      "Don't put a decorative kicker above a heading; the small label style is only for live status lines and the back link.",
+      "Don't set names, headings, buttons or phone numbers in Red Hat Mono."
+    ],
+    "knownGaps": [
+      "Illustrations appear only on home (HeroArt), stories and the friend plan (TogetherArt). The other situation plans have no vignettes, and the proof shelf's empty state has no art, only a status line.",
+      "The arch motif lives only inside the illustrations; no UI component (cards, panels, hero frame) uses the arch silhouette yet."
+    ]
+  }
+}

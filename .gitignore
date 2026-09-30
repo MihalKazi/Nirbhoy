@@ -1,0 +1,16 @@
+node_modules
+.next
+*.log
+.env*
+next-env.d.ts
+
+# Private hackathon source files (kept local, not published)
+*.docx
+*.xlsx
+Screenshot*.png
+
+# Impeccable scratch output
+.impeccable/decision-payload*.json
+.impeccable/det.json
+.impeccable/qb
+.impeccable/review
