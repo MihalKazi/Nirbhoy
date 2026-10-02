@@ -3,6 +3,7 @@ node_modules
 *.log
 .env*
 next-env.d.ts
+*.tsbuildinfo
 
 # Private hackathon source files (kept local, not published)
 *.docx
@@ -14,3 +15,4 @@ Screenshot*.png
 .impeccable/det.json
 .impeccable/qb
 .impeccable/review
+*.pdf

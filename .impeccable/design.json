@@ -681,11 +681,11 @@
       },
       "control": {
         "displayName": "Control",
-        "purpose": "Button labels; inputs use the same size at 450."
+        "purpose": "Button labels; inputs use the same size at 400."
       },
       "hint": {
         "displayName": "Hint",
-        "purpose": "Row hints (450), tools, chips, reassurance pill, field labels, 1-2-3 strip."
+        "purpose": "Row hints (400), tools, chips, reassurance pill, field labels, 1-2-3 strip."
       },
       "label": {
         "displayName": "Label",
@@ -792,7 +792,7 @@
       "refersTo": "button-primary",
       "description": "Violet pill, the default action.",
       "html": "<button class=\"ds-btn\">Done</button>",
-      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #6b46c1;background:#6b46c1;color:#fff;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .15s,transform .15s cubic-bezier(0.16,1,0.3,1)}.ds-btn:hover{background:#553399;border-color:#553399}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #6b46c1;background:#6b46c1;color:#fff;font-family:'Hind Siliguri',system-ui,sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .15s,transform .15s cubic-bezier(0.16,1,0.3,1)}.ds-btn:hover{background:#553399;border-color:#553399}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
     },
     {
       "name": "Line Button",
@@ -800,7 +800,7 @@
       "refersTo": "button-line",
       "description": "White pill with a lavender-line border.",
       "html": "<button class=\"ds-btn-line\">109 Women &amp; children</button>",
-      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #e2d8f3;background:#fff;color:#2a1f3d;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .15s}.ds-btn-line:hover{background:#efe8fa}.ds-btn-line:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #e2d8f3;background:#fff;color:#2a1f3d;font-family:'Hind Siliguri',system-ui,sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .15s}.ds-btn-line:hover{background:#efe8fa}.ds-btn-line:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
     },
     {
       "name": "Emergency Button",
@@ -808,7 +808,7 @@
       "refersTo": "button-emergency",
       "description": "Red pill for emergency calls only.",
       "html": "<a class=\"ds-btn-red\" href=\"tel:999\">999 Police</a>",
-      "css": ".ds-btn-red{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;background:#c62f3f;color:#fff;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;font-weight:700;text-decoration:none}.ds-btn-red:hover{background:#a8242f}.ds-btn-red:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+      "css": ".ds-btn-red{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;background:#c62f3f;color:#fff;font-family:'Hind Siliguri',system-ui,sans-serif;font-size:1rem;font-weight:700;text-decoration:none}.ds-btn-red:hover{background:#a8242f}.ds-btn-red:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
     },
     {
       "name": "Row",
@@ -816,7 +816,7 @@
       "refersTo": "row-card",
       "description": "Signature card row: violet-soft icon circle, name, hint, data pill, chevron.",
       "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-row-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg></span><span><span class=\"ds-row-name\">Someone shared my photos</span><span class=\"ds-row-hint\">Take them down and keep proof</span></span><span class=\"ds-row-data\">6 steps</span><svg class=\"ds-row-chev\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M9 5l7 7-7 7\"/></svg></a>",
-      "css": ".ds-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:14px;padding:16px 16px 16px 14px;background:#fff;border:1px solid #ebe5f3;border-radius:20px;color:#2a1f3d;text-decoration:none;box-shadow:0 1px 2px rgba(42,31,61,.06);transition:border-color .15s,box-shadow .25s cubic-bezier(0.16,1,0.3,1),transform .25s cubic-bezier(0.16,1,0.3,1)}.ds-row:hover,.ds-row:focus-visible{border-color:#e2d8f3;box-shadow:0 1px 2px rgba(42,31,61,.05),0 10px 24px -14px rgba(84,51,153,.28);transform:translateY(-2px)}.ds-row:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}.ds-row-icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#ece4fb;color:#553399}.ds-row-name{display:block;font-family:'Anek Bangla',system-ui,sans-serif;font-weight:700;font-size:1.0625rem;line-height:1.35}.ds-row-hint{display:block;margin-top:3px;font-size:.9375rem;color:#5b5170}.ds-row-data{font-size:.8125rem;font-weight:600;color:#553399;background:#ece4fb;border-radius:999px;padding:2px 10px;white-space:nowrap}.ds-row-chev{color:#5b5170}"
+      "css": ".ds-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:14px;padding:16px 16px 16px 14px;background:#fff;border:1px solid #ebe5f3;border-radius:20px;color:#2a1f3d;text-decoration:none;box-shadow:0 1px 2px rgba(42,31,61,.06);transition:border-color .15s,box-shadow .25s cubic-bezier(0.16,1,0.3,1),transform .25s cubic-bezier(0.16,1,0.3,1)}.ds-row:hover,.ds-row:focus-visible{border-color:#e2d8f3;box-shadow:0 1px 2px rgba(42,31,61,.05),0 10px 24px -14px rgba(84,51,153,.28);transform:translateY(-2px)}.ds-row:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}.ds-row-icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#ece4fb;color:#553399}.ds-row-name{display:block;font-family:'Hind Siliguri',system-ui,sans-serif;font-weight:700;font-size:1.0625rem;line-height:1.35}.ds-row-hint{display:block;margin-top:3px;font-size:.9375rem;color:#5b5170}.ds-row-data{font-size:.8125rem;font-weight:600;color:#553399;background:#ece4fb;border-radius:999px;padding:2px 10px;white-space:nowrap}.ds-row-chev{color:#5b5170}"
     },
     {
       "name": "Status Dot",
@@ -832,7 +832,7 @@
       "refersTo": "input",
       "description": "Lavender-white field; violet border and soft halo on focus.",
       "html": "<input class=\"ds-input\" placeholder=\"Date of incident\">",
-      "css": ".ds-input{display:block;width:100%;min-height:50px;padding:12px 14px;font-family:'Anek Bangla',system-ui,sans-serif;font-size:1rem;color:#2a1f3d;background:#faf7fd;border:1px solid #e2d8f3;border-radius:14px;caret-color:#6b46c1}.ds-input::placeholder{color:#8d84a0}.ds-input:focus-visible{outline:3px solid #ece4fb;outline-offset:0;border-color:#6b46c1;background:#fff}"
+      "css": ".ds-input{display:block;width:100%;min-height:50px;padding:12px 14px;font-family:'Hind Siliguri',system-ui,sans-serif;font-size:1rem;color:#2a1f3d;background:#faf7fd;border:1px solid #e2d8f3;border-radius:14px;caret-color:#6b46c1}.ds-input::placeholder{color:#8d84a0}.ds-input:focus-visible{outline:3px solid #ece4fb;outline-offset:0;border-color:#6b46c1;background:#fff}"
     },
     {
       "name": "Filter Chip",
@@ -840,7 +840,7 @@
       "refersTo": "chip",
       "description": "White pill; pressed fills violet.",
       "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Police</button> <button class=\"ds-chip\" aria-pressed=\"false\">Legal aid</button>",
-      "css": ".ds-chip{min-height:42px;padding:0 18px;border-radius:999px;border:1px solid #e2d8f3;background:#fff;color:#2a1f3d;font-family:'Anek Bangla',system-ui,sans-serif;font-size:.9375rem;font-weight:600;cursor:pointer}.ds-chip[aria-pressed='true']{background:#6b46c1;border-color:#6b46c1;color:#fff}.ds-chip:hover:not([aria-pressed='true']){background:#efe8fa}.ds-chip:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+      "css": ".ds-chip{min-height:42px;padding:0 18px;border-radius:999px;border:1px solid #e2d8f3;background:#fff;color:#2a1f3d;font-family:'Hind Siliguri',system-ui,sans-serif;font-size:.9375rem;font-weight:600;cursor:pointer}.ds-chip[aria-pressed='true']{background:#6b46c1;border-color:#6b46c1;color:#fff}.ds-chip:hover:not([aria-pressed='true']){background:#efe8fa}.ds-chip:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
     },
     {
       "name": "Nav Link",
@@ -848,7 +848,7 @@
       "refersTo": "nav-link",
       "description": "Rail pill; lavender hover, violet-soft current page.",
       "html": "<nav class=\"ds-rail\"><a class=\"ds-nav\" href=\"#\" aria-current=\"page\">Home</a><a class=\"ds-nav\" href=\"#\">Save proof</a></nav>",
-      "css": ".ds-rail{background:#fff;border:1px solid #ebe5f3;border-radius:20px;width:240px;padding:12px;display:grid;gap:2px}.ds-nav{display:flex;align-items:center;min-height:50px;padding:0 14px;border-radius:999px;color:#2a1f3d;text-decoration:none;font-family:'Anek Bangla',system-ui,sans-serif;font-weight:600}.ds-nav:hover{background:#efe8fa}.ds-nav[aria-current='page']{background:#ece4fb;color:#553399}.ds-nav:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+      "css": ".ds-rail{background:#fff;border:1px solid #ebe5f3;border-radius:20px;width:240px;padding:12px;display:grid;gap:2px}.ds-nav{display:flex;align-items:center;min-height:50px;padding:0 14px;border-radius:999px;color:#2a1f3d;text-decoration:none;font-family:'Hind Siliguri',system-ui,sans-serif;font-weight:600}.ds-nav:hover{background:#efe8fa}.ds-nav[aria-current='page']{background:#ece4fb;color:#553399}.ds-nav:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
     },
     {
       "name": "Call Pair",
@@ -856,7 +856,7 @@
       "refersTo": "call-999",
       "description": "999 red pill beside a 109 violet-soft pill.",
       "html": "<div class=\"ds-calls\"><a class=\"ds-call ds-999\" href=\"tel:999\">999</a><a class=\"ds-call ds-109\" href=\"tel:109\">109</a></div>",
-      "css": ".ds-calls{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:220px}.ds-call{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:999px;font-family:'Anek Bangla',system-ui,sans-serif;font-weight:700;font-size:1.125rem;font-variant-numeric:tabular-nums;text-decoration:none}.ds-999{background:#c62f3f;color:#fff}.ds-999:hover{background:#a8242f}.ds-109{background:#ece4fb;color:#553399}.ds-109:hover{background:#6b46c1;color:#fff}.ds-call:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
+      "css": ".ds-calls{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:220px}.ds-call{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:999px;font-family:'Hind Siliguri',system-ui,sans-serif;font-weight:700;font-size:1.125rem;font-variant-numeric:tabular-nums;text-decoration:none}.ds-999{background:#c62f3f;color:#fff}.ds-999:hover{background:#a8242f}.ds-109{background:#ece4fb;color:#553399}.ds-109:hover{background:#6b46c1;color:#fff}.ds-call:focus-visible{outline:3px solid #6b46c1;outline-offset:2px}"
     },
     {
       "name": "Reassurance Pill",
@@ -864,7 +864,7 @@
       "refersTo": "reassure",
       "description": "Peach-cream pill with a terracotta heart.",
       "html": "<span class=\"ds-reassure\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z\"/></svg>This is not your fault, and you are not alone.</span>",
-      "css": ".ds-reassure{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;background:#fdf1ec;color:#2a1f3d;border-radius:999px;font-family:'Anek Bangla',system-ui,sans-serif;font-size:.9375rem;font-weight:600}.ds-reassure svg{color:#c2573a;flex:none}"
+      "css": ".ds-reassure{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;background:#fdf1ec;color:#2a1f3d;border-radius:999px;font-family:'Hind Siliguri',system-ui,sans-serif;font-size:.9375rem;font-weight:600}.ds-reassure svg{color:#c2573a;flex:none}"
     }
   ],
   "narrative": {
@@ -875,7 +875,7 @@
       "Violet for action, peach for warmth, green only for done, red only for danger and exit.",
       "Pill-shaped buttons, chips, nav links, call buttons and badges; circles for icons and status.",
       "Flat inline-SVG illustrations: faceless women, no outlines, glow and sparks for light, alpana dots, shital pati.",
-      "One family (Anek Bangla) in sentence case; Red Hat Mono for data only.",
+      "One family (Hind Siliguri) in sentence case; Red Hat Mono for data only.",
       "User-controlled text scale (1 / 1.15 / 1.3) applied to the root font size."
     ],
     "rules": [

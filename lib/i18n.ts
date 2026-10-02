@@ -7,7 +7,7 @@ export function isLang(v: string): v is Lang {
 }
 
 // Site name: change here to rename the site everywhere.
-export const SITE_NAME = { bn: 'পাশে', en: 'Pashe' } as const;
+export const SITE_NAME = { bn: 'নির্ভয়', en: 'Nirbhoy' } as const;
 
 const BN_DIGITS = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
 

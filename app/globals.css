@@ -17,8 +17,8 @@
   --red-soft: #fdeaec;
   --line: #ebe5f3;
 
-  --font-display: var(--font-anek), 'Anek Bangla', system-ui, sans-serif;
-  --font-body: var(--font-anek), 'Anek Bangla', system-ui, sans-serif;
+  --font-display: var(--font-anek), 'Hind Siliguri', system-ui, sans-serif;
+  --font-body: var(--font-anek), 'Hind Siliguri', system-ui, sans-serif;
   --font-mono: var(--font-mono-data), 'Red Hat Mono', ui-monospace, monospace;
 
   --rail: 240px;
@@ -46,8 +46,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body);
-  font-weight: 450;
-  font-size: 1.0625rem;
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 1.6;
   caret-color: var(--violet);
   accent-color: var(--violet);
@@ -113,7 +113,7 @@ p {
 }
 
 .lede {
-  font-size: 1.1875rem;
+  font-size: 1.125rem;
   color: var(--ink-soft);
   max-width: 52ch;
 }
@@ -509,11 +509,29 @@ p {
 }
 
 a.row-card:hover,
-a.row-card:focus-visible {
+a.row-card:focus-visible,
+button.row-card:hover,
+button.row-card:focus-visible {
   border-color: var(--lav-line);
   box-shadow: var(--shadow);
   transform: translateY(-2px);
   color: var(--ink);
+}
+
+button.row-card {
+  width: 100%;
+  text-align: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+button.row-card .row-icon {
+  background: var(--lav);
+  color: var(--ink-soft);
+}
+
+button.row-card .row-name {
+  color: var(--violet-deep);
 }
 
 .row-face {
@@ -683,14 +701,14 @@ a.row-card:focus-visible {
   display: grid;
   gap: 8px 40px;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .hero-art {
-  width: 170px;
+  width: 232px;
   height: auto;
   justify-self: center;
-  margin-block: -6px 0;
+  margin-block: -6px 4px;
 }
 
 

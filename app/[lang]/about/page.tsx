@@ -31,13 +31,13 @@ export default async function About({ params }: { params: Promise<{ lang: string
     ? [
         'অনলাইন কর্মশালা: তরুণ নারীদের ডিপফেক, এআই হয়রানি ও নিরাপদ থাকার উপায় জানানো।',
         'তথ্যচিত্র: টিএফজিবিভি থেকে ঘুরে দাঁড়ানোর গল্প।',
-        'পাশে ডেস্ক ও ক্যাম্পাস নেটওয়ার্ক: বিশ্ববিদ্যালয়ে ছাত্র স্বেচ্ছাসেবকদের সহায়তা।',
+        'নির্ভয় ডেস্ক ও ক্যাম্পাস নেটওয়ার্ক: বিশ্ববিদ্যালয়ে ছাত্র স্বেচ্ছাসেবকদের সহায়তা।',
         '“দশ কার” কাউন্টার-মিম: নারীবিদ্বেষী মন্তব্যের জবাবে ইতিবাচক বার্তা।',
       ]
     : [
         'Online workshops: teaching young women about deepfakes, AI harassment and staying safe.',
         'A documentary: coming back from TFGBV.',
-        'Pashe desks and a campus network: student volunteers offering support at universities.',
+        'Nirbhoy desks and a campus network: student volunteers offering support at universities.',
         '“Dosh Kar” counter-meme project: positive replies to misogynistic remarks.',
       ];
 

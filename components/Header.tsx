@@ -14,7 +14,7 @@ function Brand({ lang }: { lang: Lang }) {
       </span>
       <span className="brand-text">
         <strong>{SITE_NAME[lang]}</strong>
-        <small>{lang === 'bn' ? 'আমরা পাশে আছি' : 'We’re beside you, step by step'}</small>
+        <small>{lang === 'bn' ? 'নির্ভয়ে থাকুন' : 'Be fearless.'}</small>
       </span>
     </Link>
   );

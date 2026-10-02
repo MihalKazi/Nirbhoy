@@ -47,65 +47,65 @@ colors:
   illo-screen: "#cdbcf2"
 typography:
   display:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "clamp(1.875rem, 6vw, 2.75rem)"
     fontWeight: 700
     lineHeight: 1.2
     letterSpacing: "-0.01em"
   display-plan:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "clamp(1.75rem, 5.5vw, 2.5rem)"
     fontWeight: 700
     lineHeight: 1.2
     letterSpacing: "-0.01em"
   headline:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "1.375rem"
     fontWeight: 700
     lineHeight: 1.2
     letterSpacing: "-0.01em"
   lede:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
-    fontSize: "1.1875rem"
-    fontWeight: 450
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
+    fontSize: "1.125rem"
+    fontWeight: 400
     lineHeight: 1.6
   title:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "1.125rem"
     fontWeight: 700
     lineHeight: 1.2
   body:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
-    fontSize: "1.0625rem"
-    fontWeight: 450
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 400
     lineHeight: 1.6
   row-name:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "1.0625rem"
     fontWeight: 700
     lineHeight: 1.35
   control:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "1rem"
     fontWeight: 700
     lineHeight: 1.5
   hint:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "0.9375rem"
     fontWeight: 600
     lineHeight: 1.5
   label:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "0.875rem"
     fontWeight: 600
     lineHeight: 1.5
   caption:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "0.8125rem"
     fontWeight: 600
     lineHeight: 1.3
   tag:
-    fontFamily: "Anek Bangla, system-ui, sans-serif"
+    fontFamily: "Hind Siliguri, system-ui, sans-serif"
     fontSize: "0.75rem"
     fontWeight: 700
   mono:
@@ -271,7 +271,7 @@ This replaces the earlier "Morning Tea Garden" sage world, which the user reject
 - Violet for action, peach for warmth, green only for done, red only for danger and exit.
 - Pill-shaped buttons, chips, nav links, call buttons and badges; circles for icons and status.
 - Flat inline-SVG illustrations: faceless women, no outlines, glow and sparks for light, alpana dots, shital pati.
-- One family (Anek Bangla) in sentence case; Red Hat Mono for data only.
+- One family (Hind Siliguri) in sentence case; Red Hat Mono for data only.
 - User-controlled text scale (1 / 1.15 / 1.3) applied to the root font size.
 
 ## Colors
@@ -319,27 +319,27 @@ The drawings use their own fixed palette object (`C` in `components/Illustration
 
 ## Typography
 
-**Display Font:** Anek Bangla (with system-ui, sans-serif)
-**Body Font:** Anek Bangla (with system-ui, sans-serif)
+**Display Font:** Hind Siliguri (with system-ui, sans-serif)
+**Body Font:** Hind Siliguri (with system-ui, sans-serif)
 **Label/Mono Font:** Red Hat Mono (with ui-monospace, monospace), data only
 
-**Character:** One warm, rounded Bangla-and-Latin family at normal width and sentence case carries every role; weight (450 body, 600 labels, 700 headings and controls) does the hierarchy work. Red Hat Mono is a quiet technical voice for hashes, drafts and small tabular captions.
+**Character:** One warm, rounded Bangla-and-Latin family at normal width and sentence case carries every role; weight (400 body, 600 labels, 700 headings and controls) does the hierarchy work. Red Hat Mono is a quiet technical voice for hashes, drafts and small tabular captions.
 
 ### Hierarchy
 - **Display** (700, `clamp(1.875rem, 6vw, 2.75rem)`, 1.2, -0.01em): the page's one question or title.
 - **Display, plan** (700, `clamp(1.75rem, 5.5vw, 2.5rem)`, max 26ch): plan titles, which run longer.
 - **Headline** (700, 1.375rem, 1.2): section headings, 40px above and 14px below.
-- **Lede** (450, 1.1875rem, soft plum, max 52ch): the line under a page title.
+- **Lede** (400, 1.125rem, soft plum, max 52ch): the line under a page title.
 - **Title** (700, 1.125rem): h3, home section titles, the "do not" heading on plans.
-- **Body** (450, 1.0625rem, 1.6, max 62ch): running text; also the brand name and phone-number pills (700).
-- **Row name** (700, 1.0625rem, 1.35): the name inside every card row.
-- **Control** (700, 1rem): button labels; inputs use the same size at 450.
-- **Hint** (600, 0.9375rem): row hints (at 450), tools, chips, the reassurance pill, field labels, the 1-2-3 strip.
-- **Label** (600, 0.875rem, soft plum): live status lines ("2 / 5 steps done", "The shelf is empty") and the back link above a plan title; field hints at 450.
+- **Body** (400, 1rem, 1.6, max 62ch): running text.
+- **Row name** (700, 1.0625rem, 1.35): the name inside every card row; also the brand name and phone-number pills.
+- **Control** (700, 1rem): button labels; inputs use the same size at 400.
+- **Hint** (600, 0.9375rem): row hints (at 400), tools, chips, the reassurance pill, field labels, the 1-2-3 strip.
+- **Label** (600, 0.875rem, soft plum): live status lines ("2 / 5 steps done", "The shelf is empty") and the back link above a plan title; field hints at 400.
 - **Caption** (600, 0.8125rem): row data pills, the brand strapline, foot-line text, step numerals (700).
 - **Tag** (700, 0.75rem): the peach "women only" badge.
 - **Mono** (400, 0.8125rem, tabular): hashes, privacy and help captions. **Mono draft** (400, 0.875rem, 1.6): the generated GD draft block.
-- **Call digits** (700, 1.125rem, Anek Bangla with tabular numerals): 999 and 109.
+- **Call digits** (700, 1.125rem, Hind Siliguri with tabular numerals): 999 and 109.
 
 ### Named Rules
 **The Sentence-Case Rule.** Nothing is uppercased, letter-spaced or width-condensed. The `wdth` axis is loaded but unused.

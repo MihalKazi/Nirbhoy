@@ -4,6 +4,7 @@ import { RowLink } from '@/components/Box';
 import { Disclaimer } from '@/components/Disclaimer';
 import { Icon } from '@/components/Icons';
 import { HeroArt } from '@/components/Illustrations';
+import { SituationList } from '@/components/SituationList';
 import { digits, isLang } from '@/lib/i18n';
 import { PLANS } from '@/lib/plans';
 
@@ -96,17 +97,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               </div>
             </li>
 
-            {PLANS.map((p) => (
-              <li key={p.id}>
-                <RowLink
-                  href={`/${lang}/plan/${p.id}`}
-                  icon={p.icon}
-                  name={p.name[lang]}
-                  hint={p.hint[lang]}
-                  data={bn ? `${n(p.steps.length)}টি ধাপ` : `${p.steps.length} steps`}
-                />
-              </li>
-            ))}
+            <SituationList lang={lang} plans={PLANS} />
             <li>
               <RowLink
                 href={`/${lang}/help`}

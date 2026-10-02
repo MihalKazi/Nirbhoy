@@ -1,6 +1,6 @@
-# Pashe (পাশে)
+# Nirbhoy (নির্ভয়)
 
-**আমরা পাশে আছি — We're beside you, step by step.**
+**নির্ভয়ে থাকুন — Be fearless.**
 
 A bilingual (Bangla / English) support site for women in Bangladesh facing technology-facilitated gender-based violence (TFGBV): leaked or threatened images, deepfakes, hacked accounts, doxxing and harassment. Built for the DKC Digital Respect & Cohesion Fellowship 2026.
 

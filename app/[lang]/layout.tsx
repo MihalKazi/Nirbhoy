@@ -1,16 +1,16 @@
 import type { Metadata, Viewport } from 'next';
-import { Anek_Bangla, Red_Hat_Mono } from 'next/font/google';
+import { Hind_Siliguri, Red_Hat_Mono } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { Chrome } from '@/components/Header';
 import { EmergencyBar } from '@/components/EmergencyBar';
 import { LANGS, SITE_NAME, isLang } from '@/lib/i18n';
 import '../globals.css';
 
-// One family for both scripts: Anek Bangla's width axis gives the condensed
-// label voice (Bangla and Latin alike); a mono carries data only.
-const anek = Anek_Bangla({
+// Hind Siliguri: calmer, smaller-reading Bangla than Anek Bangla at the same
+// rem, lower visual weight for a survivor reading in a frightened state.
+const hindSiliguri = Hind_Siliguri({
   subsets: ['bengali', 'latin'],
-  axes: ['wdth'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-anek',
   display: 'swap',
 });
@@ -58,7 +58,7 @@ export default async function LangLayout({
   const { lang } = await params;
   if (!isLang(lang)) notFound();
   return (
-    <html lang={lang} className={`${anek.variable} ${mono.variable}`}>
+    <html lang={lang} className={`${hindSiliguri.variable} ${mono.variable}`}>
       <body>
         <div className="shell">
           <Chrome lang={lang} />
