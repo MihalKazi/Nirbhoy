@@ -26,3 +26,5 @@ Open http://localhost:3000 (redirects to `/bn`; English at `/en`).
 Next.js (App Router, static generation), TypeScript, hand-drawn SVG illustrations, no backend.
 
 > Phone numbers and external links should be re-verified before any public launch. This site is not a substitute for police, legal or medical help.
+
+**Live site:** https://pashe-pearl.vercel.app
