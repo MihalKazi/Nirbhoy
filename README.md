@@ -28,3 +28,4 @@ Next.js (App Router, static generation), TypeScript, hand-drawn SVG illustration
 > Phone numbers and external links should be re-verified before any public launch. This site is not a substitute for police, legal or medical help.
 
 **Live site:** https://pashe-pearl.vercel.app
+
