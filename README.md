@@ -29,3 +29,4 @@ Next.js (App Router, static generation), TypeScript, hand-drawn SVG illustration
 
 **Live site:** https://pashe-pearl.vercel.app
 
+
